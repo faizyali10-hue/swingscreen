@@ -27,12 +27,13 @@ except ImportError:
     raise SystemExit("Install dependencies first: pip install -r requirements.txt")
 
 # ----------------------------- CONFIG ---------------------------------
-LOOKBACK_PERIOD = "2y"
+LOOKBACK_PERIOD = "3y"
 
 RSI_PERIOD = 14
 RSI_ENTRY_TRIGGER = 50
-RSI_OVERSOLD_FLOOR = 30
+RSI_OVERSOLD_FLOOR = 20
 WEEKLY_RSI_MIN = 60
+MONTHLY_RSI_MIN = 60          # NEW: monthly RSI must be above this too
 
 EMA_TREND = 200
 EMA_FAST = 20
@@ -64,6 +65,20 @@ def get_weekly_rsi(daily_df: pd.DataFrame) -> float:
     return weekly_rsi.iloc[-1]
 
 
+def get_monthly_rsi(daily_df: pd.DataFrame) -> float:
+    """Same idea as weekly RSI, resampled to calendar months instead.
+    Requires ~15 completed months of history to stabilize (14-period RSI + 1),
+    so LOOKBACK_PERIOD needs to be long enough — 3y is fine, but if you shorten
+    it below ~18 months this will return NaN and monthly filtering will always fail."""
+    monthly = daily_df.resample("ME").agg({
+        "Open": "first", "High": "max", "Low": "min", "Close": "last", "Volume": "sum"
+    }).dropna()
+    if len(monthly) < RSI_PERIOD + 1:
+        return np.nan
+    monthly_rsi = compute_rsi(monthly["Close"], RSI_PERIOD)
+    return monthly_rsi.iloc[-1]
+
+
 # --------------------------- SCREENING LOGIC --------------------------------
 
 def screen_stock(symbol: str, df: pd.DataFrame) -> dict | None:
@@ -93,6 +108,10 @@ def screen_stock(symbol: str, df: pd.DataFrame) -> dict | None:
     if pd.isna(weekly_rsi) or weekly_rsi <= WEEKLY_RSI_MIN:
         return None
 
+    monthly_rsi = get_monthly_rsi(df)
+    if pd.isna(monthly_rsi) or monthly_rsi <= MONTHLY_RSI_MIN:
+        return None
+
     swing_low = df["Low"].tail(10).min()
     stop_loss = round(float(swing_low * 0.995), 2)
     entry_price = round(float(latest["Close"]), 2)
@@ -105,6 +124,7 @@ def screen_stock(symbol: str, df: pd.DataFrame) -> dict | None:
         "close": entry_price,
         "dailyRsi": round(float(latest["RSI"]), 1),
         "weeklyRsi": round(float(weekly_rsi), 1),
+        "monthlyRsi": round(float(monthly_rsi), 1),
         "ema20": round(float(latest["EMA20"]), 2),
         "ema200": round(float(latest["EMA200"]), 2),
         "stopLoss": stop_loss,
@@ -155,6 +175,7 @@ def main():
             "rsiEntryTrigger": RSI_ENTRY_TRIGGER,
             "rsiOversoldFloor": RSI_OVERSOLD_FLOOR,
             "weeklyRsiMin": WEEKLY_RSI_MIN,
+            "monthlyRsiMin": MONTHLY_RSI_MIN,
             "emaTrend": EMA_TREND,
             "emaFast": EMA_FAST,
             "minAvgTurnoverCr": MIN_AVG_TURNOVER_CR,
