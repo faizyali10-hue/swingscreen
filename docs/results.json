@@ -1,0 +1,15 @@
+{
+  "generatedAt": null,
+  "config": {
+    "rsiEntryTrigger": 45,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 0,
+  "resultsCount": 0,
+  "results": [],
+  "errorCount": 0
+}
