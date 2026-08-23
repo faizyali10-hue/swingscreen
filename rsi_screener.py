@@ -19,7 +19,7 @@ import pandas as pd
 import numpy as np
 import os
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 try:
     import yfinance as yf
@@ -42,6 +42,9 @@ MIN_AVG_TURNOVER_CR = 5
 
 TICKER_FILE = "nifty500_tickers.csv"
 OUTPUT_JSON = "docs/results.json"
+HISTORY_DIR = "docs/history"
+HISTORY_INDEX = "docs/history/index.json"
+MAX_HISTORY_DAYS = 365            # prune archived scans older than this
 
 # ------------------------- INDICATOR HELPERS ----------------------------
 
@@ -189,8 +192,49 @@ def main():
     with open(OUTPUT_JSON, "w") as f:
         json.dump(output, f, indent=2)
 
+    save_to_history(output)
+
     print(f"\n{len(results)} setups found out of {len(tickers)} scanned.")
     print(f"Saved to {OUTPUT_JSON}")
+
+
+def save_to_history(output: dict):
+    """Archives today's scan under docs/history/YYYY-MM-DD.json and updates
+    docs/history/index.json (the list of available dates the page can browse).
+    Prunes archives older than MAX_HISTORY_DAYS so the repo doesn't grow forever."""
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    date_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    with open(f"{HISTORY_DIR}/{date_str}.json", "w") as f:
+        json.dump(output, f, indent=2)
+
+    if os.path.exists(HISTORY_INDEX):
+        with open(HISTORY_INDEX) as f:
+            index_data = json.load(f)
+    else:
+        index_data = {"dates": []}
+
+    if date_str not in index_data["dates"]:
+        index_data["dates"].append(date_str)
+
+    cutoff = (datetime.now(timezone.utc) - timedelta(days=MAX_HISTORY_DAYS)).strftime("%Y-%m-%d")
+    kept, pruned = [], []
+    for d in index_data["dates"]:
+        (kept if d >= cutoff else pruned).append(d)
+
+    for d in pruned:
+        old_file = f"{HISTORY_DIR}/{d}.json"
+        if os.path.exists(old_file):
+            os.remove(old_file)
+
+    index_data["dates"] = sorted(kept, reverse=True)  # newest first
+
+    with open(HISTORY_INDEX, "w") as f:
+        json.dump(index_data, f, indent=2)
+
+    if pruned:
+        print(f"Pruned {len(pruned)} archive(s) older than {MAX_HISTORY_DAYS} days.")
+    print(f"Archived to {HISTORY_DIR}/{date_str}.json ({len(kept)} dates now in history)")
 
 
 if __name__ == "__main__":

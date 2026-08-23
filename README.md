@@ -76,6 +76,17 @@ The workflow is scheduled for `30 10 * * 1-5` (UTC) = 4:00 PM IST, Monday–Frid
 after the NSE closes at 3:30 PM IST. Every day it re-scans your full universe and
 updates the page automatically — nothing to run manually going forward.
 
+## Historical archive
+
+Every run archives its results under `docs/history/YYYY-MM-DD.json`, and
+`docs/history/index.json` tracks which dates are available. The page shows a
+date dropdown so you can look back at any prior scan — up to `MAX_HISTORY_DAYS`
+(default 365) worth of history. Older archives are pruned automatically each
+run to keep the repo size reasonable.
+
+`docs/results.json` still holds just the latest scan (kept as the fallback if
+history hasn't been generated yet, e.g. right after first deploying this).
+
 ## Tuning
 Edit the config constants at the top of `rsi_screener.py`:
 - `RSI_ENTRY_TRIGGER`, `WEEKLY_RSI_MIN`, `RSI_OVERSOLD_FLOOR`
