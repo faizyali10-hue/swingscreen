@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-08-23T16:01:51.296947+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 3,
+  "results": [
+    {
+      "symbol": "CAPLIPOINT",
+      "close": 2560.8,
+      "dailyRsi": 52.0,
+      "weeklyRsi": 68.3,
+      "monthlyRsi": 64.9,
+      "ema20": 2546.74,
+      "ema200": 2146.3,
+      "stopLoss": 2370.59,
+      "target3R": 3131.43,
+      "avgTurnoverCr": 26.9
+    },
+    {
+      "symbol": "GRANULES",
+      "close": 858.15,
+      "dailyRsi": 54.0,
+      "weeklyRsi": 66.7,
+      "monthlyRsi": 79.0,
+      "ema20": 850.77,
+      "ema200": 707.53,
+      "stopLoss": 823.46,
+      "target3R": 962.22,
+      "avgTurnoverCr": 52.3
+    },
+    {
+      "symbol": "JSWINFRA",
+      "close": 335.7,
+      "dailyRsi": 54.0,
+      "weeklyRsi": 63.3,
+      "monthlyRsi": 67.2,
+      "ema20": 332.58,
+      "ema200": 295.89,
+      "stopLoss": 324.77,
+      "target3R": 368.49,
+      "avgTurnoverCr": 98.7
+    }
+  ],
+  "errorCount": 0
+}
