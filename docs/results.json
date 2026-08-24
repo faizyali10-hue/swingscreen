@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T16:14:20.979044+00:00",
+  "generatedAt": "2026-08-24T11:03:30.490186+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,43 +10,31 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 3,
+  "resultsCount": 2,
   "results": [
     {
-      "symbol": "CAPLIPOINT",
-      "close": 2560.8,
-      "dailyRsi": 52.0,
-      "weeklyRsi": 68.3,
-      "monthlyRsi": 64.9,
-      "ema20": 2546.74,
-      "ema200": 2146.3,
-      "stopLoss": 2370.59,
-      "target3R": 3131.43,
-      "avgTurnoverCr": 26.9
+      "symbol": "ABB",
+      "close": 7504.0,
+      "dailyRsi": 53.6,
+      "weeklyRsi": 61.2,
+      "monthlyRsi": 62.7,
+      "ema20": 7482.62,
+      "ema200": 6520.17,
+      "stopLoss": 7354.54,
+      "target3R": 7952.38,
+      "avgTurnoverCr": 215.1
     },
     {
-      "symbol": "GRANULES",
-      "close": 858.15,
-      "dailyRsi": 54.0,
-      "weeklyRsi": 66.7,
-      "monthlyRsi": 79.0,
-      "ema20": 850.77,
-      "ema200": 707.53,
-      "stopLoss": 823.46,
-      "target3R": 962.22,
-      "avgTurnoverCr": 52.3
-    },
-    {
-      "symbol": "JSWINFRA",
-      "close": 335.7,
-      "dailyRsi": 54.0,
-      "weeklyRsi": 63.3,
-      "monthlyRsi": 67.2,
-      "ema20": 332.58,
-      "ema200": 295.89,
-      "stopLoss": 324.77,
-      "target3R": 368.49,
-      "avgTurnoverCr": 98.7
+      "symbol": "SHYAMMETL",
+      "close": 1001.0,
+      "dailyRsi": 50.8,
+      "weeklyRsi": 60.2,
+      "monthlyRsi": 60.7,
+      "ema20": 999.14,
+      "ema200": 915.47,
+      "stopLoss": 965.15,
+      "target3R": 1108.55,
+      "avgTurnoverCr": 40.6
     }
   ],
   "errorCount": 0
