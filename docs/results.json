@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T17:09:48.297536+00:00",
+  "generatedAt": "2026-10-12T19:58:15.813513+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,80 +10,7 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 6,
-  "results": [
-    {
-      "symbol": "AUROPHARMA",
-      "close": 1693.0,
-      "dailyRsi": 53.3,
-      "weeklyRsi": 66.6,
-      "monthlyRsi": 76.7,
-      "ema20": 1681.26,
-      "ema200": 1473.55,
-      "stopLoss": 1624.84,
-      "target3R": 1897.48,
-      "avgTurnoverCr": 135.1
-    },
-    {
-      "symbol": "NYKAA",
-      "close": 343.0,
-      "dailyRsi": 56.2,
-      "weeklyRsi": 66.1,
-      "monthlyRsi": 73.5,
-      "ema20": 334.34,
-      "ema200": 293.64,
-      "stopLoss": 314.42,
-      "target3R": 428.74,
-      "avgTurnoverCr": 163.3
-    },
-    {
-      "symbol": "RADICO",
-      "close": 4550.0,
-      "dailyRsi": 54.9,
-      "weeklyRsi": 66.0,
-      "monthlyRsi": 79.9,
-      "ema20": 4447.81,
-      "ema200": 3758.09,
-      "stopLoss": 4213.63,
-      "target3R": 5559.11,
-      "avgTurnoverCr": 134.8
-    },
-    {
-      "symbol": "COFORGE",
-      "close": 1867.9,
-      "dailyRsi": 56.5,
-      "weeklyRsi": 62.0,
-      "monthlyRsi": 60.7,
-      "ema20": 1822.06,
-      "ema200": 1616.53,
-      "stopLoss": 1713.39,
-      "target3R": 2331.43,
-      "avgTurnoverCr": 399.8
-    },
-    {
-      "symbol": "KIRLOSENG",
-      "close": 2210.4,
-      "dailyRsi": 51.1,
-      "weeklyRsi": 60.9,
-      "monthlyRsi": 71.8,
-      "ema20": 2203.15,
-      "ema200": 1822.61,
-      "stopLoss": 2075.87,
-      "target3R": 2613.99,
-      "avgTurnoverCr": 164.5
-    },
-    {
-      "symbol": "CARTRADE",
-      "close": 2951.0,
-      "dailyRsi": 51.2,
-      "weeklyRsi": 60.6,
-      "monthlyRsi": 67.0,
-      "ema20": 2931.38,
-      "ema200": 2518.94,
-      "stopLoss": 2726.1,
-      "target3R": 3625.7,
-      "avgTurnoverCr": 77.8
-    }
-  ],
+  "resultsCount": 0,
+  "results": [],
   "errorCount": 0
 }

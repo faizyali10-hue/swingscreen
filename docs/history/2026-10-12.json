@@ -1,0 +1,16 @@
+{
+  "generatedAt": "2026-10-12T19:58:15.813513+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 0,
+  "results": [],
+  "errorCount": 0
+}
