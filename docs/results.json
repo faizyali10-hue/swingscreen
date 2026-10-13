@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-12T19:58:15.813513+00:00",
+  "generatedAt": "2026-10-13T17:44:45.513792+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,7 +10,68 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 0,
-  "results": [],
+  "resultsCount": 5,
+  "results": [
+    {
+      "symbol": "NAVINFLUOR",
+      "close": 8468.0,
+      "dailyRsi": 52.7,
+      "weeklyRsi": 67.6,
+      "monthlyRsi": 78.5,
+      "ema20": 8403.91,
+      "ema200": 7204.96,
+      "stopLoss": 7994.82,
+      "target3R": 9887.54,
+      "avgTurnoverCr": 93.0
+    },
+    {
+      "symbol": "SHYAMMETL",
+      "close": 1097.6,
+      "dailyRsi": 58.6,
+      "weeklyRsi": 63.5,
+      "monthlyRsi": 68.6,
+      "ema20": 1067.79,
+      "ema200": 958.38,
+      "stopLoss": 1009.92,
+      "target3R": 1360.64,
+      "avgTurnoverCr": 62.1
+    },
+    {
+      "symbol": "ATHERENERG",
+      "close": 1494.9,
+      "dailyRsi": 51.1,
+      "weeklyRsi": 63.3,
+      "monthlyRsi": 77.2,
+      "ema20": 1480.0,
+      "ema200": 1107.62,
+      "stopLoss": 1361.76,
+      "target3R": 1894.32,
+      "avgTurnoverCr": 551.4
+    },
+    {
+      "symbol": "KPIL",
+      "close": 1417.5,
+      "dailyRsi": 53.1,
+      "weeklyRsi": 60.6,
+      "monthlyRsi": 61.5,
+      "ema20": 1402.78,
+      "ema200": 1289.71,
+      "stopLoss": 1338.37,
+      "target3R": 1654.89,
+      "avgTurnoverCr": 24.1
+    },
+    {
+      "symbol": "CRAFTSMAN",
+      "close": 10674.0,
+      "dailyRsi": 51.5,
+      "weeklyRsi": 60.1,
+      "monthlyRsi": 73.1,
+      "ema20": 10565.2,
+      "ema200": 9031.3,
+      "stopLoss": 9930.1,
+      "target3R": 12905.7,
+      "avgTurnoverCr": 56.7
+    }
+  ],
   "errorCount": 0
 }
