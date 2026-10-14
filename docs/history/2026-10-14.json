@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-14T15:23:52.512138+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 3,
+  "results": [
+    {
+      "symbol": "LALPATHLAB",
+      "close": 1938.0,
+      "dailyRsi": 51.0,
+      "weeklyRsi": 64.6,
+      "monthlyRsi": 72.1,
+      "ema20": 1937.8,
+      "ema200": 1693.79,
+      "stopLoss": 1855.67,
+      "target3R": 2184.99,
+      "avgTurnoverCr": 71.6
+    },
+    {
+      "symbol": "INDGN",
+      "close": 596.9,
+      "dailyRsi": 53.8,
+      "weeklyRsi": 62.0,
+      "monthlyRsi": 62.3,
+      "ema20": 591.2,
+      "ema200": 540.38,
+      "stopLoss": 564.71,
+      "target3R": 693.47,
+      "avgTurnoverCr": 29.7
+    },
+    {
+      "symbol": "JINDALSAW",
+      "close": 297.1,
+      "dailyRsi": 58.0,
+      "weeklyRsi": 61.3,
+      "monthlyRsi": 62.2,
+      "ema20": 283.72,
+      "ema200": 247.95,
+      "stopLoss": 259.3,
+      "target3R": 410.5,
+      "avgTurnoverCr": 39.5
+    }
+  ],
+  "errorCount": 0
+}
