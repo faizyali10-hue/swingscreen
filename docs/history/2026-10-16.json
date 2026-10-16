@@ -1,0 +1,53 @@
+{
+  "generatedAt": "2026-10-16T14:58:57.008087+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 3,
+  "results": [
+    {
+      "symbol": "RADICO",
+      "close": 4473.4,
+      "dailyRsi": 50.3,
+      "weeklyRsi": 63.1,
+      "monthlyRsi": 79.4,
+      "ema20": 4471.98,
+      "ema200": 3794.97,
+      "stopLoss": 4217.31,
+      "target3R": 5241.67,
+      "avgTurnoverCr": 140.2
+    },
+    {
+      "symbol": "CARTRADE",
+      "close": 3011.4,
+      "dailyRsi": 51.7,
+      "weeklyRsi": 62.1,
+      "monthlyRsi": 67.7,
+      "ema20": 2991.18,
+      "ema200": 2546.99,
+      "stopLoss": 2790.18,
+      "target3R": 3675.06,
+      "avgTurnoverCr": 99.4
+    },
+    {
+      "symbol": "ETERNAL",
+      "close": 325.3,
+      "dailyRsi": 51.6,
+      "weeklyRsi": 61.5,
+      "monthlyRsi": 66.7,
+      "ema20": 323.87,
+      "ema200": 291.58,
+      "stopLoss": 306.56,
+      "target3R": 381.52,
+      "avgTurnoverCr": 697.4
+    }
+  ],
+  "errorCount": 0
+}
