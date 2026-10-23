@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-23T15:23:00.537280+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 1,
+  "results": [
+    {
+      "symbol": "IPCALAB",
+      "close": 1953.3,
+      "dailyRsi": 54.9,
+      "weeklyRsi": 61.6,
+      "monthlyRsi": 73.7,
+      "ema20": 1916.9,
+      "ema200": 1707.29,
+      "stopLoss": 1788.02,
+      "target3R": 2449.14,
+      "avgTurnoverCr": 48.7
+    }
+  ],
+  "errorCount": 0
+}

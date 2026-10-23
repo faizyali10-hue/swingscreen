@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T15:30:15.783851+00:00",
+  "generatedAt": "2026-10-23T15:23:00.537280+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -13,16 +13,16 @@
   "resultsCount": 1,
   "results": [
     {
-      "symbol": "CHENNPETRO",
-      "close": 1453.7,
-      "dailyRsi": 51.2,
-      "weeklyRsi": 61.9,
-      "monthlyRsi": 79.1,
-      "ema20": 1448.59,
-      "ema200": 1153.1,
-      "stopLoss": 1370.41,
-      "target3R": 1703.57,
-      "avgTurnoverCr": 472.7
+      "symbol": "IPCALAB",
+      "close": 1953.3,
+      "dailyRsi": 54.9,
+      "weeklyRsi": 61.6,
+      "monthlyRsi": 73.7,
+      "ema20": 1916.9,
+      "ema200": 1707.29,
+      "stopLoss": 1788.02,
+      "target3R": 2449.14,
+      "avgTurnoverCr": 48.7
     }
   ],
   "errorCount": 0
