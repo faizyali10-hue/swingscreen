@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-26T16:53:30.829408+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 5,
+  "results": [
+    {
+      "symbol": "LAURUSLABS",
+      "close": 2058.9,
+      "dailyRsi": 57.4,
+      "weeklyRsi": 72.3,
+      "monthlyRsi": 87.8,
+      "ema20": 2014.14,
+      "ema200": 1524.59,
+      "stopLoss": 1923.83,
+      "target3R": 2464.11,
+      "avgTurnoverCr": 298.3
+    },
+    {
+      "symbol": "ATHERENERG",
+      "close": 1575.0,
+      "dailyRsi": 59.7,
+      "weeklyRsi": 64.3,
+      "monthlyRsi": 78.4,
+      "ema20": 1472.06,
+      "ema200": 1138.56,
+      "stopLoss": 1338.97,
+      "target3R": 2283.09,
+      "avgTurnoverCr": 474.0
+    },
+    {
+      "symbol": "INDGN",
+      "close": 601.75,
+      "dailyRsi": 55.0,
+      "weeklyRsi": 60.6,
+      "monthlyRsi": 62.7,
+      "ema20": 589.77,
+      "ema200": 543.64,
+      "stopLoss": 558.74,
+      "target3R": 730.78,
+      "avgTurnoverCr": 30.3
+    },
+    {
+      "symbol": "ETERNAL",
+      "close": 325.55,
+      "dailyRsi": 53.0,
+      "weeklyRsi": 60.4,
+      "monthlyRsi": 66.7,
+      "ema20": 320.91,
+      "ema200": 292.77,
+      "stopLoss": 300.24,
+      "target3R": 401.48,
+      "avgTurnoverCr": 885.3
+    },
+    {
+      "symbol": "MRPL",
+      "close": 182.61,
+      "dailyRsi": 59.9,
+      "weeklyRsi": 60.0,
+      "monthlyRsi": 62.2,
+      "ema20": 170.31,
+      "ema200": 162.73,
+      "stopLoss": 158.21,
+      "target3R": 255.81,
+      "avgTurnoverCr": 341.7
+    }
+  ],
+  "errorCount": 0
+}
