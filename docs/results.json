@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:58:48.362747+00:00",
+  "generatedAt": "2026-10-28T16:47:09.535411+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,103 +10,31 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 8,
+  "resultsCount": 2,
   "results": [
     {
-      "symbol": "DIVISLAB",
-      "close": 9505.5,
-      "dailyRsi": 58.3,
-      "weeklyRsi": 72.0,
-      "monthlyRsi": 77.6,
-      "ema20": 9229.18,
-      "ema200": 7676.85,
-      "stopLoss": 8753.01,
-      "target3R": 11762.97,
-      "avgTurnoverCr": 540.5
+      "symbol": "WELCORP",
+      "close": 2564.3,
+      "dailyRsi": 50.8,
+      "weeklyRsi": 69.8,
+      "monthlyRsi": 83.7,
+      "ema20": 2551.96,
+      "ema200": 1733.33,
+      "stopLoss": 2303.43,
+      "target3R": 3346.91,
+      "avgTurnoverCr": 395.3
     },
     {
-      "symbol": "SONACOMS",
-      "close": 851.85,
-      "dailyRsi": 62.8,
-      "weeklyRsi": 67.5,
-      "monthlyRsi": 73.3,
-      "ema20": 796.37,
-      "ema200": 672.59,
-      "stopLoss": 737.59,
-      "target3R": 1194.63,
-      "avgTurnoverCr": 257.5
-    },
-    {
-      "symbol": "PTCIL",
-      "close": 24055.0,
-      "dailyRsi": 53.2,
-      "weeklyRsi": 66.5,
-      "monthlyRsi": 74.3,
-      "ema20": 23942.78,
-      "ema200": 19373.07,
-      "stopLoss": 22979.53,
-      "target3R": 27281.41,
-      "avgTurnoverCr": 73.6
-    },
-    {
-      "symbol": "HFCL",
-      "close": 250.11,
-      "dailyRsi": 52.3,
-      "weeklyRsi": 65.1,
-      "monthlyRsi": 75.5,
-      "ema20": 248.12,
-      "ema200": 176.78,
-      "stopLoss": 227.37,
-      "target3R": 318.33,
-      "avgTurnoverCr": 218.7
-    },
-    {
-      "symbol": "GLAND",
-      "close": 2960.3,
-      "dailyRsi": 50.9,
-      "weeklyRsi": 64.2,
-      "monthlyRsi": 77.6,
-      "ema20": 2956.41,
-      "ema200": 2407.27,
-      "stopLoss": 2755.95,
-      "target3R": 3573.35,
-      "avgTurnoverCr": 127.3
-    },
-    {
-      "symbol": "SAILIFE",
-      "close": 1486.2,
-      "dailyRsi": 52.1,
-      "weeklyRsi": 62.8,
-      "monthlyRsi": 61.2,
-      "ema20": 1464.41,
-      "ema200": 1246.55,
-      "stopLoss": 1353.8,
-      "target3R": 1883.4,
-      "avgTurnoverCr": 64.9
-    },
-    {
-      "symbol": "CPPLUS",
-      "close": 3968.2,
-      "dailyRsi": 52.0,
-      "weeklyRsi": 62.4,
-      "monthlyRsi": 89.7,
-      "ema20": 3948.68,
-      "ema200": 2986.56,
-      "stopLoss": 3741.6,
-      "target3R": 4648.0,
-      "avgTurnoverCr": 142.7
-    },
-    {
-      "symbol": "CRAFTSMAN",
-      "close": 11011.0,
-      "dailyRsi": 54.9,
-      "weeklyRsi": 60.9,
-      "monthlyRsi": 74.2,
-      "ema20": 10773.3,
-      "ema200": 9209.88,
-      "stopLoss": 10248.5,
-      "target3R": 13298.5,
-      "avgTurnoverCr": 47.5
+      "symbol": "PPLPHARMA",
+      "close": 232.8,
+      "dailyRsi": 71.9,
+      "weeklyRsi": 68.9,
+      "monthlyRsi": 66.4,
+      "ema20": 201.42,
+      "ema200": 188.35,
+      "stopLoss": 184.09,
+      "target3R": 378.93,
+      "avgTurnoverCr": 180.8
     }
   ],
   "errorCount": 0
