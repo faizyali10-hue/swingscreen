@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-10-29T17:03:48.066911+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 1,
+  "results": [
+    {
+      "symbol": "SYRMA",
+      "close": 1669.0,
+      "dailyRsi": 55.6,
+      "weeklyRsi": 62.9,
+      "monthlyRsi": 75.8,
+      "ema20": 1597.97,
+      "ema200": 1264.57,
+      "stopLoss": 1392.9,
+      "target3R": 2497.3,
+      "avgTurnoverCr": 223.3
+    }
+  ],
+  "errorCount": 0
+}

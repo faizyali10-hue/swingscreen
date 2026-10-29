@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T16:47:09.535411+00:00",
+  "generatedAt": "2026-10-29T17:03:48.066911+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,31 +10,19 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 2,
+  "resultsCount": 1,
   "results": [
     {
-      "symbol": "WELCORP",
-      "close": 2564.3,
-      "dailyRsi": 50.8,
-      "weeklyRsi": 69.8,
-      "monthlyRsi": 83.7,
-      "ema20": 2551.96,
-      "ema200": 1733.33,
-      "stopLoss": 2303.43,
-      "target3R": 3346.91,
-      "avgTurnoverCr": 395.3
-    },
-    {
-      "symbol": "PPLPHARMA",
-      "close": 232.8,
-      "dailyRsi": 71.9,
-      "weeklyRsi": 68.9,
-      "monthlyRsi": 66.4,
-      "ema20": 201.42,
-      "ema200": 188.35,
-      "stopLoss": 184.09,
-      "target3R": 378.93,
-      "avgTurnoverCr": 180.8
+      "symbol": "SYRMA",
+      "close": 1669.0,
+      "dailyRsi": 55.6,
+      "weeklyRsi": 62.9,
+      "monthlyRsi": 75.8,
+      "ema20": 1597.97,
+      "ema200": 1264.57,
+      "stopLoss": 1392.9,
+      "target3R": 2497.3,
+      "avgTurnoverCr": 223.3
     }
   ],
   "errorCount": 0
