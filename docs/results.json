@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:03:48.066911+00:00",
+  "generatedAt": "2026-10-30T16:48:48.666010+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -13,16 +13,16 @@
   "resultsCount": 1,
   "results": [
     {
-      "symbol": "SYRMA",
-      "close": 1669.0,
-      "dailyRsi": 55.6,
-      "weeklyRsi": 62.9,
-      "monthlyRsi": 75.8,
-      "ema20": 1597.97,
-      "ema200": 1264.57,
-      "stopLoss": 1392.9,
-      "target3R": 2497.3,
-      "avgTurnoverCr": 223.3
+      "symbol": "WELSPUNLIV",
+      "close": 219.08,
+      "dailyRsi": 52.6,
+      "weeklyRsi": 66.7,
+      "monthlyRsi": 68.0,
+      "ema20": 217.31,
+      "ema200": 170.79,
+      "stopLoss": 203.73,
+      "target3R": 265.13,
+      "avgTurnoverCr": 114.3
     }
   ],
   "errorCount": 0
