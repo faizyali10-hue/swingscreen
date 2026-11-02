@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T16:48:48.666010+00:00",
+  "generatedAt": "2026-11-02T20:29:54.149656+00:00",
   "config": {
     "rsiEntryTrigger": 50,
     "rsiOversoldFloor": 20,
@@ -10,20 +10,7 @@
     "minAvgTurnoverCr": 5
   },
   "universeSize": 391,
-  "resultsCount": 1,
-  "results": [
-    {
-      "symbol": "WELSPUNLIV",
-      "close": 219.08,
-      "dailyRsi": 52.6,
-      "weeklyRsi": 66.7,
-      "monthlyRsi": 68.0,
-      "ema20": 217.31,
-      "ema200": 170.79,
-      "stopLoss": 203.73,
-      "target3R": 265.13,
-      "avgTurnoverCr": 114.3
-    }
-  ],
+  "resultsCount": 0,
+  "results": [],
   "errorCount": 0
 }
