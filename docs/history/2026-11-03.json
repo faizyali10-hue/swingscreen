@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-11-03T18:00:27.402721+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 1,
+  "results": [
+    {
+      "symbol": "LALPATHLAB",
+      "close": 1925.7,
+      "dailyRsi": 54.0,
+      "weeklyRsi": 61.1,
+      "monthlyRsi": 63.7,
+      "ema20": 1900.7,
+      "ema200": 1716.4,
+      "stopLoss": 1788.81,
+      "target3R": 2336.37,
+      "avgTurnoverCr": 43.6
+    }
+  ],
+  "errorCount": 0
+}
