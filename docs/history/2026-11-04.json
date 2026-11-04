@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-11-04T18:11:25.527055+00:00",
+  "config": {
+    "rsiEntryTrigger": 50,
+    "rsiOversoldFloor": 20,
+    "weeklyRsiMin": 60,
+    "monthlyRsiMin": 60,
+    "emaTrend": 200,
+    "emaFast": 20,
+    "minAvgTurnoverCr": 5
+  },
+  "universeSize": 391,
+  "resultsCount": 1,
+  "results": [
+    {
+      "symbol": "CPPLUS",
+      "close": 3999.8,
+      "dailyRsi": 53.8,
+      "weeklyRsi": 63.1,
+      "monthlyRsi": 88.9,
+      "ema20": 3932.25,
+      "ema200": 3040.45,
+      "stopLoss": 3601.2,
+      "target3R": 5195.6,
+      "avgTurnoverCr": 143.9
+    }
+  ],
+  "errorCount": 0
+}
